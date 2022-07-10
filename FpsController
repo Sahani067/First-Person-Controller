@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     [SerializeField] Camera PlayerCam;
     CharacterController controller;
     Vector3 moveDirection = Vector3.zero;
-    float rotationX = 0;
+    float rotationX;
 
 
 
